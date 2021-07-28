@@ -9,9 +9,13 @@ function App() {
         { title: 'New Desk (Wooden)', amount: 145.52, date: new Date(2021, 3, 8) },
     ];
 
+    const addExpenseHandler = expense => {
+        console.log(expense, 'App');
+    };
+
     return (
         <div className="App">
-            <NewExpense />
+            <NewExpense onAddExpense={addExpenseHandler} />
             <Expenses items={expenses} />
         </div>
     );
