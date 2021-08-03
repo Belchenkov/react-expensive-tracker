@@ -1,5 +1,8 @@
 # React Expensive Tracker
 
+### [Demo](https://expense-tracker-react-ab.surge.sh)
+[![IMAGE ALT TEXT HERE](./uploads/screen.png)](https://radikal.ru/video/H5DfDUstOF4)
+
 In the project directory, you can run:
 
 ### `npm start`
